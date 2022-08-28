@@ -1,0 +1,14 @@
+{
+  "StackName": "stack-hlds-security-group",
+  "Parameters": [
+    {
+      "ParameterKey": "Environment",
+      "ParameterValue": "hlds"
+    },
+    {
+      "ParameterKey": "HomeCidr",
+      "ParameterValue": "192.168.0.0/32"
+    }
+  ],
+  "ChangeSetName": "change-set"
+}

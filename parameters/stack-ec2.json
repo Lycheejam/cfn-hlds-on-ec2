@@ -1,0 +1,10 @@
+{
+  "StackName": "stack-hlds-ec2",
+  "Parameters": [
+    {
+      "ParameterKey": "Environment",
+      "ParameterValue": "hlds"
+    }
+  ],
+  "ChangeSetName": "change-set"
+}

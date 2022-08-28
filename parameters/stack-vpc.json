@@ -1,0 +1,26 @@
+{
+  "StackName": "stack-hlds-vpc",
+  "Parameters": [
+    {
+      "ParameterKey": "Environment",
+      "ParameterValue": "hlds"
+    },
+    {
+      "ParameterKey": "VpcCidr",
+      "ParameterValue": "10.10.0.0/16"
+    },
+    {
+      "ParameterKey": "PublicSubnetCidrA",
+      "ParameterValue": "10.10.1.0/24"
+    },
+    {
+      "ParameterKey": "PublicSubnetCidrC",
+      "ParameterValue": "10.10.2.0/24"
+    },
+    {
+      "ParameterKey": "HomeCidr",
+      "ParameterValue": "192.168.0.0/32"
+    }
+  ],
+  "ChangeSetName": "change-set"
+}
